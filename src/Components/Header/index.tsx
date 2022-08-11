@@ -18,9 +18,11 @@ export function Header(){
             <MapPin size={20} weight="fill"/>
             Bauru - SP
           </HeaderButton>
-          <HeaderButton variant='yellow'>
-            <ShoppingCart size={20} weight="fill"/>
-          </HeaderButton>
+          <NavLink to="/checkout">
+            <HeaderButton variant='yellow'>
+              <ShoppingCart size={20} weight="fill"/>
+            </HeaderButton>
+          </NavLink>
         </HeaderButtonsContainer>
       </div>
     </HeaderContainer>
